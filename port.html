@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            width: 60%;
+            margin: 0 auto;
+        }
+        header{text-align: center;
+        color: white;}
+        .about{
+           padding: 10PX;
+            
+        }
+        img{
+           
+            height: auto;
+            width: 300px;
+        }
+        .aboutbody{
+            display: flex;
+        }
+        .about{
+           text-align: center;
+        }
+        .projectbody{
+            display: flex;
+        }
+        .ok{
+             height: 150px;
+             width: 150px;
+        }
+        .project{
+            background-color: white;
+        }
+        .imgbody{
+            text-align: center;
+            align-items: center;
+        }
+       .hobbybody{
+           display:flex;
+           justify-content: space-around;
+       }
+       .Hobbies{
+           background-color: white;
+          
+       }
+       input,textarea{
+           width:90%;
+           margin:5px;
+           padding: 10px;
+           background-color: rgb(194, 194, 194);
+       }
+       .contact{
+           padding: 10px 15x;
+           background-color: white;
+       }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body style="background-color: #ec1666
+;">
+<div class="container">
+    <header>
+    <h1 style="font-size: 90px;" >I am Ethan</h1>
+    <h1>I eat photosythesis</h1>
+    <div class="icons">
+    <i class="fab fa-linkedin-in"></i>
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-whatsapp"></i>
+    <i class="fab fa-twitter"></i>
+   </div>
+</header>
+ <div style="background-color: white;" class="about">
+<h3 >About me</h3>
+<div class="aboutbody">
+    <img src="https://mail.google.com/mail/u/0?ui=2&ik=7c155f3d7c&attid=0.1&permmsgid=msg-f:1723794072553337087&th=17ec2593707730ff&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8raEUdzaAWMGNNRwjjOeEDgmW7eZaPONpoyk8zheHj1MsmQu6DewcbncE88SwD4hFRlNHxuYnHuHbRCZrjzRaKHMk9ZM3Ir8aVJTePfTGfcdVfEtGhfBmMdWU&disp=emb&realattid=abee9d695e2d3279_0.1.1" alt="">
+<p  style="font-size: 30px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, mollitia dicta odio ex dolores ipsam. Assumenda, asperiores. Corrupti itaque id explicabo asperiores nulla, quasi non, ipsum excepturi atque sit iste.</p>
+</div>
+</div>
+<div class="project">
+    <h1>Projects</h3>
+    <div class="projectbody">
+        <div class="imgbody">
+        <h3>Facebook</h3>
+            <img src="data:image/png;base64,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" alt="">\
+            
+        </div>
+            <div class="imgbody">
+                <h3>Tik Tac Toe</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJXCjD2HBQBdpW5_8o_QHbbxN5UZSDJ959bg&usqp=CAU" alt="" class="ok">
+        </div>
+
+            <div class="imgbody">
+                <h3>Instagram</h3>
+            <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--oZFdz0At--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dyy5jofc5c37eussw417.png" alt="">
+        </div>
+        </div>
+    </div>
+    <div class="Hobbies">
+        <h3>Hobbies</h1>
+             <div class="hobbybody">
+                 <div>Hockey</div>
+                 <div>Art</div>
+                 <div>King of Tokyo</div>
+             </div>
+ </div>
+ <div class="contact">
+    <h1>Contact</h1>
+    <div class="contactbody">
+        <input type="email" placeholder="Email" id="E">
+        <input type="text" placeholder="Subject" id="S">
+        <textarea name="" placeholder="Message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" placeholder="Submit">
+    </div>
+</div>
+</div>
+
+
+</div>
+</body>
+</html>
